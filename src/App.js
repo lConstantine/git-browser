@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="git-browser/" component={() => <Home />} />
-          <Route exact path="git-browser/:userName" component={() => <Home />} />
-          <Route exact path="git-browser/:userName/:repositoryName" component={() => <Home />} />
+          <Route exact path="/git-browser/" component={() => <Home />} />
+          <Route exact path="/git-browser/:userName" component={() => <Home />} />
+          <Route exact path="/git-browser/:userName/:repositoryName" component={() => <Home />} />
         </Switch>
       </Router>
     </div>
