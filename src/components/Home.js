@@ -36,15 +36,15 @@ const Home = () => {
     }
   }, [repositoryName, userName, readmeUrl])
 
-  
+
 
   return (
     <div>
       <Header />
         <Switch>
-          <Route exact path="/" component={() => <Main />} />
-          <Route exact path="/:userName" component={() => <List repoList={repoList} />} />
-          <Route exact path="/:userName/:repositoryName" component={() => <Readme readme={readme} />} />
+          <Route exact path="/git-browser/" component={() => <Main />} />
+          <Route exact path="/git-browser/:userName" component={() => <List repoList={repoList} />} />
+          <Route exact path="/git-browser/:userName/:repositoryName" component={() => <Readme readme={readme} />} />
         </Switch>
 
     </div>
