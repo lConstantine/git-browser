@@ -9,11 +9,11 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename="/git-browser">
         <Switch>
-          <Route exact path="/git-browser/" component={() => <Home />} />
-          <Route exact path="/git-browser/:userName" component={() => <Home />} />
-          <Route exact path="/git-browser/:userName/:repositoryName" component={() => <Home />} />
+          <Route exact path="/" component={() => <Home />} />
+          <Route exact path="/:userName" component={() => <Home />} />
+          <Route exact path="/:userName/:repositoryName" component={() => <Home />} />
         </Switch>
       </Router>
     </div>
