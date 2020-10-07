@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/git-browser/static/css/main.264070cf.chunk.css",
-    "main.js": "/git-browser/static/js/main.5ba92fb3.chunk.js",
-    "main.js.map": "/git-browser/static/js/main.5ba92fb3.chunk.js.map",
+    "main.js": "/git-browser/static/js/main.068605bc.chunk.js",
+    "main.js.map": "/git-browser/static/js/main.068605bc.chunk.js.map",
     "runtime-main.js": "/git-browser/static/js/runtime-main.5277e2f7.js",
     "runtime-main.js.map": "/git-browser/static/js/runtime-main.5277e2f7.js.map",
     "static/css/2.5a510433.chunk.css": "/git-browser/static/css/2.5a510433.chunk.css",
     "static/js/2.9fb4c5af.chunk.js": "/git-browser/static/js/2.9fb4c5af.chunk.js",
     "static/js/2.9fb4c5af.chunk.js.map": "/git-browser/static/js/2.9fb4c5af.chunk.js.map",
     "index.html": "/git-browser/index.html",
-    "precache-manifest.925c623f560b854b12779efadc5d5606.js": "/git-browser/precache-manifest.925c623f560b854b12779efadc5d5606.js",
+    "precache-manifest.45b1807e0b16d91846c3f090d7d04976.js": "/git-browser/precache-manifest.45b1807e0b16d91846c3f090d7d04976.js",
     "service-worker.js": "/git-browser/service-worker.js",
     "static/css/2.5a510433.chunk.css.map": "/git-browser/static/css/2.5a510433.chunk.css.map",
     "static/css/main.264070cf.chunk.css.map": "/git-browser/static/css/main.264070cf.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.5a510433.chunk.css",
     "static/js/2.9fb4c5af.chunk.js",
     "static/css/main.264070cf.chunk.css",
-    "static/js/main.5ba92fb3.chunk.js"
+    "static/js/main.068605bc.chunk.js"
   ]
 }
