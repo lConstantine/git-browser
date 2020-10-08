@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea33a9df74e0e17b89e8007a9fc027f0",
+    "revision": "24c02d303fef8e687882803b2e1b3403",
     "url": "/git-browser/index.html"
   },
   {
-    "revision": "1ba6022819eebbdc63be",
+    "revision": "c47dd66955f4b8cb9bb0",
     "url": "/git-browser/static/css/2.5a510433.chunk.css"
   },
   {
-    "revision": "4bd152a4618bd00f4d8f",
+    "revision": "1749cb18b5eb62003d4e",
     "url": "/git-browser/static/css/main.264070cf.chunk.css"
   },
   {
-    "revision": "1ba6022819eebbdc63be",
-    "url": "/git-browser/static/js/2.9fb4c5af.chunk.js"
+    "revision": "c47dd66955f4b8cb9bb0",
+    "url": "/git-browser/static/js/2.16dcea04.chunk.js"
   },
   {
     "revision": "e4c8325d6171f826423d5cde7680da9a",
-    "url": "/git-browser/static/js/2.9fb4c5af.chunk.js.LICENSE.txt"
+    "url": "/git-browser/static/js/2.16dcea04.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4bd152a4618bd00f4d8f",
-    "url": "/git-browser/static/js/main.068605bc.chunk.js"
+    "revision": "1749cb18b5eb62003d4e",
+    "url": "/git-browser/static/js/main.90ddd155.chunk.js"
   },
   {
     "revision": "ae08c9f470255166818e",
