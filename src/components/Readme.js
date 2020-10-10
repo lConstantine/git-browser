@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 
 const Readme = ({ readme }) => {
   return (
-    <div>
+    <div style={{"margin": 20}}>
       <ReactMarkdown source={readme} />
     </div>
   )

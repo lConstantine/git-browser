@@ -9,16 +9,23 @@ import Header from './Header'
 
 const Home = () => {
   const { userName, repositoryName } = useParams()
+
   const [repoList, setRepoList] = useState([])
   const url = `https://api.github.com/users/${userName}/repos`
 
+  const [avatar, setAvatar] = useState("")
+  const avatarUrl = `https://api.github.com/users/${userName}`
+
   useEffect(() => {
-    if (typeof userName !== 'undefined') {
+    if (typeof userName !== "undefined") {
       axios(url).then((it) => {
         setRepoList(it.data.map((item) => item.name));
-      })
+      });
+      axios(avatarUrl).then((response) => {
+        setAvatar(response.data.avatar_url)
+      });
     }
-  }, [url, userName])
+  }, [url, userName, avatarUrl]);
 
   const [readme, setReadme] = useState('')
   const readmeUrl = `https://api.github.com/repos/${userName}/${repositoryName}/readme`
@@ -40,7 +47,7 @@ const Home = () => {
 
   return (
     <div>
-      <Header />
+      <Header avatar={avatar}/>
         <Switch>
           <Route exact path="/" component={() => <Main />} />
           <Route exact path="/:userName" component={() => <List repoList={repoList} />} />

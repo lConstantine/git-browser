@@ -28,7 +28,7 @@ const Main = () => {
 
   return (
     <div>
-      <div className="row center">
+      <div className="row center" style={{"marginLeft": 450}}>
         <div className="input-field col s6">
           <input id="username" type="text" value={name} onChange={onChange} />
           <label htmlFor="username">Username</label>
