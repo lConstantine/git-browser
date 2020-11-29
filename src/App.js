@@ -14,6 +14,7 @@ function App() {
           <Route exact path="/" component={() => <Home />} />
           <Route exact path="/:userName" component={() => <Home />} />
           <Route exact path="/:userName/:repositoryName" component={() => <Home />} />
+          <Route exact path="*" component={() => <Home />} />
         </Switch>
       </Router>
     </div>
