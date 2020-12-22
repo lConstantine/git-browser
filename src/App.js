@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import 'materialize-css'
 
-import Home from './components/Home'
+import { Home } from './components/Home/Home'
 
-function App() {
+export const App = () => {
 
   return (
     <div className="App">
@@ -20,5 +20,3 @@ function App() {
     </div>
   );
 }
-
-export default App

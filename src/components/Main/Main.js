@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 
-const Main = () => {
+export const Main = () => {
 
   const history = useHistory()
 
@@ -28,7 +28,7 @@ const Main = () => {
 
   return (
     <div>
-      <div className="row center" style={{"marginLeft": 450}}>
+      <div className="row center">
         <div className="input-field col s6">
           <input id="username" type="text" value={name} onChange={onChange} />
           <label htmlFor="username">Username</label>
@@ -39,5 +39,3 @@ const Main = () => {
     </div>
   );
 }
-
-export default Main

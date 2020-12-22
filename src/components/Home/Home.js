@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Route, Switch, useParams } from 'react-router-dom'
 
-import Main from './Main'
-import List from "./List"
-import ReadmePage from "./ReadmePage"
-import Header from './Header'
-import NotFound from './NotFound'
+import { Main } from '../Main/Main'
+import { List } from "../List/List"
+import { ReadmePage } from "../ReadmePage/ReadmePage"
+import { Header } from '../Header/Header'
+import { NotFound } from '../NotFound/NotFound'
 
-const Home = () => {
+export const Home = () => {
   const { userName, repositoryName } = useParams()
 
   const [repoList, setRepoList] = useState([])
@@ -69,5 +69,3 @@ const Home = () => {
     </div>
   );
 }
-
-export default Home

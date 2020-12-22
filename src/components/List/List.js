@@ -1,9 +1,9 @@
 import React from 'react'
 import { useParams, Link } from 'react-router-dom'
-import NotFound from './NotFound'
-import Loader from './Loader'
+import { NotFound } from '../NotFound/NotFound'
+import { Loader } from '../Loader/Loader'
 
-const List = ({ repoList, loading }) => {
+export const List = ({ repoList, loading }) => {
   const { userName } = useParams();
 
   if (loading) {
@@ -25,5 +25,3 @@ const List = ({ repoList, loading }) => {
     </div>
   )
 }
-
-export default List
