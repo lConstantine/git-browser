@@ -17,9 +17,10 @@ Things I've learned and used:
 
 I'll fix the visual part a bit and add new features as soon as i have some spare time!
 
-## Available Scripts
 
-In the project directory, you can run:
+You can play with the app here: https://lconstantine.github.io/git-browser/
+
+or get it running locally by cloning the repo and using the basic create-react-app script:
 
 ### `yarn start`
 
