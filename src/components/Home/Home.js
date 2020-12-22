@@ -19,6 +19,7 @@ export const Home = () => {
 
   const [loading, setLoading] = useState(false)
 
+  
   useEffect(() => {
     if (typeof userName !== "undefined") {
       const fetchData = async() => {
@@ -35,8 +36,10 @@ export const Home = () => {
    }
   }, [url, userName, avatarUrl]);
 
+
   const [readme, setReadme] = useState('')
   const readmeUrl = `https://api.github.com/repos/${userName}/${repositoryName}/readme`
+
 
   useEffect(() => {
     if (typeof userName !== "undefined" && typeof repositoryName !== "undefined") {
@@ -50,10 +53,8 @@ export const Home = () => {
         setLoading(false)
       }
     fetchData()
-
   }
   }, [repositoryName, userName, readmeUrl])
-
 
 
   return (
