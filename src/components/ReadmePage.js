@@ -5,8 +5,8 @@ import Loader from './Loader'
 
 
 const ReadmePage = ({ readme, loading }) => {
-  console.log('loading', loading)
-  console.log('readme:', readme, typeof readme)
+ /* console.log('loading', loading)
+  console.log('readme:', readme, typeof readme) */
   if (loading) {
     return (<Loader />)
   }
